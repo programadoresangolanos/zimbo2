@@ -1,16 +1,14 @@
+/*
+	Autor: Dom Nziaka
+ 	Twitter: @akaizn
+	E-mail: sdnziaka@gmail.com
+*/
 .wrapper{
 	width: 1369px;
 	margin:0 auto;
 	text-align:left;
 	}
-@font-face{
-	font-family: 'Montserrat', sans-serif;
-	src: url('http://fonts.googleapis.com/css?family=Montserrat');
-}
-body{
-background: #c5c5c5;
-color:#333;
-}
+body{ background: #c5c5c5; color:#333; }
 .margem{ margin: 100px 300px 0 300px; }
 #original_logo, #html_logo{ display:inline; }
 #main-container{

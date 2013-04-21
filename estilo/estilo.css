@@ -11,11 +11,11 @@ body{
 background: #c5c5c5;
 color:#333;
 }
+.margem{ margin: 100px 300px 0 300px; }
 #main-container{
-	margin: 100px 300px 0 300px;
-	border:5px solid #fff;
-	background:#CCC;
-	outline:1px solid #888;
+	border:5px solid #888;
+	background:#fff;
+	outline:1px solid #222;
 	padding:10px;
 	min-height:300px;
 }
@@ -26,12 +26,11 @@ color:#333;
 	font-family:Verdana, Geneva, sans-serif;
 	letter-spacing:-3px;
 	font-weight:bolder;
-	min-width:100px;
 	padding:10px;
 	}
 .tv{
-	color:#fff;
-	text-shadow:2px 2px 2px #000;
+	color:#eee;
+	text-shadow: 0px 1px 2px #000;
 	font-size:70px;
 	}
 .v{ font-size:65px; margin:2px; }
@@ -39,5 +38,13 @@ color:#333;
 	margin:1px;
 	font-size:80px;
 	color:#000;
-	text-shadow:1px 1px 1px #000;
+	text-shadow: -1px 1px 5px #777;
+	}
+.black_o{
+	background: #000;
+	position:absolute;
+	margin:23px 0 0 3px;
+	height:50px;
+	width:50px;
+	border-radius:25px;
 	}

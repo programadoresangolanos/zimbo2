@@ -5,8 +5,8 @@
 
 }
 @font-face{
-	font-family: 'monster';
-	src: url('../font/montserrat_bold.tff');
+	font-family: 'Montserrat', sans-serif;
+	src: url('http://fonts.googleapis.com/css?family=Montserrat');
 }
 body{
 	background-color: #fff;
@@ -18,7 +18,7 @@ body{
 }
 h1{
 	color: #000;
-	font-family: 'monster';
+	font-family: 'Montserrat';
 	font-size: 70px;
 }
 .o1_zimb{
@@ -74,7 +74,7 @@ h1{
 	-o-border-radius:25px;
 	-moz-border-radius:25px;
 	border-radius: 25px;
-	margin: -32px 0 0 143px;
+	margin: -34px 0 0 146px;
 	position: absolute;
 	background: rgb(0, 0, 225);
     -moz-box-shadow: inset 0 5px 10px rgb(180, 172, 173);
@@ -89,7 +89,7 @@ h1{
 	-o-border-radius:25px;
 	-moz-border-radius:25px;
 	border-radius: 25px;
-	margin: 18px 0 0 163px;
+	margin: 20px 0 0 186px;
 	position: absolute;
 	background: rgba(12, 2, 2, 3);
     -moz-box-shadow: inset 0 5px 10px rgba(180, 172, 173, 3);

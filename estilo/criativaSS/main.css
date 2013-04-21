@@ -1,0 +1,123 @@
+@charset "utf-8";
+/*
+	CriativaSS - Criativa Super Style.
+	Versão 1.0 - Data de criação: Domingo, 12-08-2012.
+	Autor: Simão Dom Nziaka.
+*/
+/*Padrão do body de todas páginas CriativaSS*/
+body{
+background: rgb(235, 235, 235);
+text-shadow:1px 1px 1px #fff;
+color:#333;
+}
+/*não perde sua posição original perante zoom-in ou zoom-out*/
+	.wrapper{
+	width: 1369px;
+	margin:0 auto;
+	text-align:left;
+	}
+/*Selection padrão criativaSS*/
+	::selection{ background:#C60; text-shadow:none; color:#fff;}
+	::-moz-selection{ background:#C60; text-shadow:none; color:#fff;}
+/* Altera a cor do placeholder de um input no webkit */
+	::-webkit-input-placeholder { color:#fff; }
+
+	/*Classe padrão, tooltips customizados*/
+	.tooltip {
+	background: #333;
+	border: 3px solid #000;
+	color:#fff;
+	text-shadow:none;
+	font-size:14px;
+	font-family:Tahoma, Geneva, sans-serif;
+	padding:4px 10px;
+	z-index:3000;
+	}
+	/************ class label ***********************/
+	.label{
+		position:absolute;
+		border:1px solid rgba(00,66,99,0.4);
+		text-shadow:1px 1px 1px #000;
+		color:#ffffff;
+		cursor:pointer;
+		padding:5px;
+		display:none;
+		border-radius:4px;
+		background:rgba(00,66,99, 0.6);
+		max-width:200px;
+		word-wrap:break-word;
+		z-index:3000;
+		}
+	/*** Black Inset Input *************/
+	.InsetBorderInput{
+	padding:7px; 
+	border:10px inset #444 !important;
+	background:#777; 
+	color:#fff;
+	text-align:end;
+	}
+	.float-left{ float:left; }
+	.float-right{ float:right; }
+	.no-float{ float:none; clear:both; }
+	.border-bottom{ border-bottom: 1px solid #000; }
+	.fixo{ position:fixed; }
+	/*Estilização para Listas*/
+	ul li{ list-style-type:none; word-wrap:break-word; }
+	/*Links*/
+	a{ text-decoration:none; color:inherit}
+	.link{ color:blue; text-decoration:underline;}
+	.oculto{ display:none;}
+	footer{ position:static; clear:both;}
+	.centro-da-tela-fixo{
+		position:fixed;
+		top:200px;
+		left:400px;
+		}
+	.marcar{ border:1px solid #000; background:rgba(0, 136, 153, 0.38); }
+	.btn-close{
+	float:right;
+	margin-top:-40px;
+	cursor:pointer;
+	background:#006699;
+	border:5px solid rgba(196, 105, 21, 0.3);
+	border-radius:20px;
+	box-shadow:1px 1px 8px rgba(00,00,00,0.8) inset;
+	padding:10px;
+	font-weight:bold;
+	font-family:"Lucida Console", Monaco, monospace;
+	text-shadow:1px 1px 1px #000;
+	color:#006699;
+	-webkit-transition: color 0.5s ease-out;
+	-moz-transition: color 0.5s ease-in;
+	-msie-transition: color 0.5s ease-in;
+	-o-transition: color 0.5s ease-in;
+	transition: color 0.5s ease-in;
+	}
+	.btn-close:hover{
+			color:rgba(255,43,43,1);
+			-webkit-transition: color 0.5s ease-in;
+			-moz-transition: color 0.5s ease-in;
+			-msie-transition: color 0.5s ease-in;
+			-o-transition: color 0.5s ease-in;
+			transition: color 0.5s ease-in;
+			}
+			.sombra{
+					background: rgba(255, 255, 255, 0.7);
+					position: absolute;
+					z-index: 2000;
+					margin: 0px;
+				}
+	/*** css triangle: .arrow-up | css tricks - http://teamtreehouse.com ******/
+		.seta-acima {
+		width: 0; 
+		height: 0;
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+		border-bottom: 10px solid rgba(61, 148, 192, 0.66);
+		}
+	/******* tabelas *******/
+	table th,
+	table td{
+		padding:5px;
+		border:1px solid #c5c5c5;
+		}

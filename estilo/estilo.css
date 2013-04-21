@@ -1,9 +1,8 @@
-*{
-	margin: 0;
-	padding: 0;
-
-
-}
+.wrapper{
+	width: 1369px;
+	margin:0 auto;
+	text-align:left;
+	}
 @font-face{
 	font-family: 'Montserrat', sans-serif;
 	src: url('http://fonts.googleapis.com/css?family=Montserrat');

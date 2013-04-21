@@ -12,21 +12,20 @@ background: #c5c5c5;
 color:#333;
 }
 .margem{ margin: 100px 300px 0 300px; }
+#original_logo, #html_logo{ display:inline; }
 #main-container{
 	border:5px solid #888;
 	background:#fff;
 	outline:1px solid #222;
 	padding:10px;
-	min-height:300px;
+	min-height:200px;
 }
-#original_logo{
-	border:2px solid #069;
-	}
 #html_logo{
 	font-family:Verdana, Geneva, sans-serif;
 	letter-spacing:-3px;
 	font-weight:bolder;
-	padding:10px;
+	padding:4px;
+	margin-left:10px;
 	}
 .tv{
 	color:#eee;
@@ -40,11 +39,41 @@ color:#333;
 	color:#000;
 	text-shadow: -1px 1px 5px #777;
 	}
-.black_o{
+.red_o{
+	width:18px !important;
+	height:18px !important;
+	background: red !important;
+	margin: 85px 0 0 51px !important;
+	}
+.orange_o{
+	width:28px !important;
+	height:28px !important;
+	background: orange !important;
+	margin: 58px 0 0 84px !important;
+	}
+.green_o{
+	width:35px !important;
+	height:35px !important;
+	background: green !important;
+	margin: 35px 0 0 127px !important;
+	}
+.blue_o{
+	width:40px !important;
+	height:40px !important;
+	background: blue !important;
+	margin: 50px 0 0 180px !important;
+	}
+.black_o,
+.red_o,
+.orange_o,
+.green_o,
+.blue_o{
 	background: #000;
+	box-shadow: -3px -4px 12px #eee inset;
 	position:absolute;
-	margin:23px 0 0 3px;
+	margin:100px 0 0 3px;
 	height:50px;
 	width:50px;
 	border-radius:25px;
 	}
+footer{ margin-top:10px !important; }
